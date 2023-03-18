@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Sebastian Veloza</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/mio (1).jpg" alt="">
+            </div>
+            <h1>Sebastian Veloza</h1>
+            <h2>Ingeniero de Sistemas e Informatica<br> Full stack developer | Android developer</h2>
+            <div class="redes">
+                <a href="https://github.com/SebastianVeloza"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/sebastian-veloza"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Sebastian Veloza.</span> Soy una persona apasionada por los retos y la innovación, en
+                constante búsqueda de tecnologías emergentes que generen un alto impacto en la sociedad. Cuento con
+                experiencia como docente en Java, Python, Spring Boot, Scrum, Gestión de proyectos, Desarrollo web,
+                Aplicaciones móviles, Android Studio y React.js.
+                En un ambiente menos académico y más laboral, he tenido experiencia desarrollando proyectos Full Stack
+                con tecnologías como C#, NodeJs, Reactjs, Java, JavaScript, Flutter, Firebase, MySQL, PostgreSQL y
+                Android. De igual forma, he participado en retos tecnológicos relacionados con Telemática y redes, lo
+                que me ha llevado a desarrollar un gusto especial por la ciberseguridad. En este momento de mi vida, me
+                motiva participar en retos tecnológicos que demanden un alto grado de trabajo en equipo y pensamiento
+                disruptivo.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+
+                        <li>
+                            <strong>Teléfono</strong>
+                            +57 3197045741
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            Sebastianvelozac@hotmail.com
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>FREELANCE</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-computer"></i>
+                            <span>TECNOLOGIA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>FOTOS</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <a href="./img/Hoja de vida Sebastian.pdf" download="CV_SebastianVeloza">
+                <button>
+
+                    Descargar CV <i class="fa-solid fa-download"></i>
+                    <span class="overlay"></span>
+
+                </button>
+            </a>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript,HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>MERN</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Java & Python</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>SQL</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>81%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>UIpath & BPM</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Liderazgo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad & Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Gestión al cambio</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>INGENIERIA DE SISTEMAS E INFORMATICA</h4>
+                        <span class="casa">Universidad Pontificia Bolivariana</span>
+                        <span class="fecha">2018 - 2023</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>BIZAGI/RPA </h4>
+                        <span class="casa">Sophos Solutions</span>
+                        <span class="fecha">2022</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>DESARROLLO DE APLICACIONES MÓVILES</h4>
+                        <span class="casa">UIS - MINTIC</span>
+                        <span class="fecha">2022</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>BOOTCAMP PARA TALENTOS MOBILE</h4>
+                        <span class="casa">Sophos Solutions</span>
+                        <span class="fecha">2022</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>CREANDO UNA TRAYECTORIA
+                            PROFESIONAL EN CIBERSEGURIDAD</h4>
+                        <span class="casa">Organizacion de Estados Americanos (OEA)</span>
+                        <span class="fecha">2021</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Full Stack Developer - Mobile Developer</h4>
+                        <span class="casa">FREELANCE</span>
+                        <span class="fecha">2020-Actual</span>
+
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Tutor de programación - MisionTIC </h4>
+                        <span class="casa">Ministerio de Tecnologías de la Información y las Comunicaciones</span>
+                        <span class="fecha">2022</span>
+                        <p>Encargado de realizar acompañamiento a tripulantes en la formación de los diferentes ciclos
+                            ofrecidos por el MinTIC para el programa de MisiónTIC sede Universidad Industrial de
+                            Santander.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Full Stack Developer</h4>
+                        <span class="casa">Sistemas y Computadores S.A</span>
+                        <span class="fecha">2022</span>
+                        <p>Ingeniero de desarrollo integrante del proyecto caja de compensación Comfenalco Santander,
+                            encargado de desarrollo y mantenimiento del portal web.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/CitasAPP.jpg" alt="">
+                    <div class="overlay">
+                        <a href="https://play.google.com/store/apps/details?id=com.matockf.dates" download>
+                            <h3>Citas</h3>
+                            <p>Aplicación enfocada en dar ideas de planes a familia y parejas.
+                                <br>Kotlin, Springboot, MySQL
+                            </p>
+                        </a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/netflix.jpg" alt="">
+                    <div class="overlay">
+
+                        <h3>Clone Netflix</h3>
+                        <p>Reactjs, NodeJS, , MongoDB, Express</p>
+
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/game1.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Videojuego de plataformas</h3>
+                        <p>Unity, C#, .NET</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/nass.jpg" alt="">
+                    <div class="overlay">
+                        <h3>NASS-Sboh</h3>
+                        <p>Network attached storage o servicio de nube para pequeñas empresas.
+                            Hecho con STACK MERN
+                        </p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/agrodin.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Agrodinas</h3>
+                        <p>Videojuego Serio enfocado en la concientizar sobre el ahorro de agua.
+                            Hecho con STACK .NET
+                        </p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/datac.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Data science</h3>
+                        <p>Analisis de datos y desarrollo de algoritmo para leer un segmento de cancion a traves de
+                            formulas matematicas.
+                            Hecho con Java y Python.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Bucaramanga-Colombia
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamanos: +57 3197045741
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: Sebastianvelozac@hotmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://github.com/SebastianVeloza"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/sebastian-veloza"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
